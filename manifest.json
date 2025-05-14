@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Format Replicator for Gmail",
+  "version": "0.3.1",
+  "description": "Copies and pastes complex, mixed text formatting across web pages and Gmail.",
+  "author": "Meridiana IT (dev_support@inversionmeridiana.com)",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_script.js"],
+      "all_frames": true,
+      "run_at": "document_idle"
+    }
+  ],
+  "commands": {
+    "trigger-copy-format": {
+      "suggested_key": { "default": "Alt+C" },
+      "description": "Copy selected text format (Rich)"
+    },
+    "trigger-paste-format": {
+      "suggested_key": { "default": "Alt+V" },
+      "description": "Paste copied text format (Rich)"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
