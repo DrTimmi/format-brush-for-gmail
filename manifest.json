@@ -1,37 +1,45 @@
 {
   "manifest_version": 3,
-  "name": "Format Replicator for Gmail",
-  "version": "0.3.1",
-  "description": "Copies and pastes complex, mixed text formatting across web pages and Gmail.",
-  "author": "Meridiana IT (dev_support@inversionmeridiana.com)",
+  "name": "Gmail Format Copier",
+  "version": "0.4.0",
+  "description": "Copies (Alt+C) and pastes (Alt+V) text formatting in Gmail, with aggressive reset logic.",
   "permissions": [
     "activeTab",
     "scripting",
     "storage",
-    "contextMenus"
-  ],
-  "host_permissions": [
-    "<all_urls>"
+    "commands"
   ],
   "background": {
     "service_worker": "background.js"
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": ["*://mail.google.com/*"],
       "js": ["content_script.js"],
-      "all_frames": true,
       "run_at": "document_idle"
     }
   ],
   "commands": {
-    "trigger-copy-format": {
-      "suggested_key": { "default": "Alt+C" },
-      "description": "Copy selected text format (Rich)"
+    "copy-format": {
+      "suggested_key": {
+        "default": "Alt+C",
+        "mac": "Alt+C"
+      },
+      "description": "Copy text formatting"
     },
-    "trigger-paste-format": {
-      "suggested_key": { "default": "Alt+V" },
-      "description": "Paste copied text format (Rich)"
+    "paste-format": {
+      "suggested_key": {
+        "default": "Alt+V",
+        "mac": "Alt+V"
+      },
+      "description": "Paste text formatting"
+    }
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
     }
   },
   "icons": {
