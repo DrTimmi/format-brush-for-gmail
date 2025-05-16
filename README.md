@@ -2,7 +2,9 @@
 
 **Quickly apply text formatting in Gmail using keyboard shortcuts or the right-click menu. Ensures consistent styling in your emails with robust format handling.**
 
-![Extension Icon or Demo Screenshot Placeholder] ## Features
+![screenshot_example_1](https://github.com/user-attachments/assets/6d75a8c1-1d76-49e2-843e-aeec8e611856)
+
+ ## Features
 
 * **Copy Formatting:** Select text with the desired style in Gmail and press `Alt+C` (or `Option+C` on Mac) or right-click and select "Copy Gmail Formatting."
 * **Paste Formatting:** Select the target text and press `Alt+V` (or `Option+V` on Mac) or right-click and select "Paste Gmail Formatting."
@@ -51,4 +53,4 @@ The "Format Brush for Gmail" extension should now be installed and active.
 
 This project is licensed under the [MIT License](LICENSE). ## Contributing (Optional)
 
-Contributions, issues, and feature requests are welcome! Please feel free to check the [issues page](https://github.com/YOUR_USERNAME/YOUR_REPONAME/issues).
+Contributions, issues, and feature requests are welcome! Please feel free to check the [issues page](https://github.com/DrTimmi/format-brush-for-gmail/issues).
