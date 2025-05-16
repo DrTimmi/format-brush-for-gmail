@@ -1,0 +1,14 @@
+# Packaged extension files
+*.zip
+*.crx
+*.pem
+
+# macOS (good to keep for collaborators or cross-platform use)
+.DS_Store
+
+# Windows (good to keep for collaborators or cross-platform use)
+Thumbs.db
+Desktop.ini
+
+# VS Code editor specific (uncomment if you use VS Code)
+# .vscode/
