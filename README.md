@@ -51,4 +51,4 @@ The "Format Brush for Gmail" extension should now be installed and active.
 
 This project is licensed under the [MIT License](LICENSE). ## Contributing (Optional)
 
-Contributions, issues, and feature requests are welcome! Please feel free to check the [issues page](https://github.com/YOUR_USERNAME/YOUR_REPONAME/issues).
+Contributions, issues, and feature requests are welcome! Please feel free to check the [issues page](https://github.com/DrTimmi/format-brush-for-gmail/issues).
