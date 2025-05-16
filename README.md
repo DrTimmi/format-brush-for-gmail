@@ -2,7 +2,8 @@
 
 **Quickly apply text formatting in Gmail using keyboard shortcuts or the right-click menu. Ensures consistent styling in your emails with robust format handling.**
 
-![screenshot_1_copy_action](https://github.com/user-attachments/assets/4c292510-b10b-4b65-896e-01b04f64048d)
+![screenshot_example_1](https://github.com/user-attachments/assets/6d75a8c1-1d76-49e2-843e-aeec8e611856)
+
  ## Features
 
 * **Copy Formatting:** Select text with the desired style in Gmail and press `Alt+C` (or `Option+C` on Mac) or right-click and select "Copy Gmail Formatting."
