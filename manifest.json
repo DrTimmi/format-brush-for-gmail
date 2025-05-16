@@ -1,13 +1,15 @@
 {
   "manifest_version": 3,
-  "name": "Gmail Format Copier",
-  "version": "0.4.0",
-  "description": "Copies (Alt+C) and pastes (Alt+V) text formatting in Gmail, with aggressive reset logic.",
+  "name": "__MSG_extName__",
+  "version": "1.0.0",
+  "default_locale": "en",
+  "description": "__MSG_extDescription__",
   "permissions": [
     "activeTab",
     "scripting",
     "storage",
-    "commands"
+    "commands",
+    "contextMenus"
   ],
   "background": {
     "service_worker": "background.js"
@@ -25,14 +27,14 @@
         "default": "Alt+C",
         "mac": "Alt+C"
       },
-      "description": "Copy text formatting"
+      "description": "__MSG_copyFormattingCommand__"
     },
     "paste-format": {
       "suggested_key": {
         "default": "Alt+V",
         "mac": "Alt+V"
       },
-      "description": "Paste text formatting"
+      "description": "__MSG_pasteFormattingCommand__"
     }
   },
   "action": {

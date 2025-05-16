@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message": "فرشاة التنسيق لـ Gmail",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "قم بتطبيق تنسيق النص بسرعة في Gmail باستخدام اختصارات لوحة المفاتيح (Alt+C, Alt+V) أو قائمة النقر بزر الماوس الأيمن. معالجة قوية للأنماط.",
+    "description": "A short description of the extension."
+  },
+  "copyFormattingCommand": {
+    "message": "نسخ تنسيق النص المحدد",
+    "description": "Description for the copy format keyboard command."
+  },
+  "pasteFormattingCommand": {
+    "message": "لصق التنسيق المنسوخ على التحديد",
+    "description": "Description for the paste format keyboard command."
+  },
+  "contextMenuCopyTitle": {
+    "message": "نسخ تنسيق Gmail",
+    "description": "Title for the context menu item to copy formatting."
+  },
+  "contextMenuPasteTitle": {
+    "message": "لصق تنسيق Gmail",
+    "description": "Title for the context menu item to paste formatting."
+  },
+  "logStyleCopied": {
+    "message": "فرشاة التنسيق: تم نسخ النمط وحفظه.",
+    "description": "Log message when style is successfully copied."
+  },
+  "logPasteExecuted": {
+    "message": "فرشاة التنسيق: تم تنفيذ أمر لصق النمط.",
+    "description": "Log message when paste command is executed."
+  },
+  "logNoStyleToPaste": {
+    "message": "فرشاة التنسيق: لم يتم العثور على نمط في وحدة التخزين للصق. استخدم أمر النسخ أولاً.",
+    "description": "Log message when trying to paste with no copied style."
+  },
+  "logErrorSavingStyle": {
+    "message": "فرشاة التنسيق: خطأ في حفظ النمط:",
+    "description": "Prefix for error message when saving style fails."
+  },
+  "logErrorRetrievingStyle": {
+    "message": "فرشاة التنسيق: خطأ في استرداد النمط:",
+    "description": "Prefix for error message when retrieving style fails."
+  },
+  "logErrorInjectingScript": {
+    "message": "فرشاة التنسيق: خطأ في إدخال البرنامج النصي:",
+    "description": "Prefix for error message when script injection fails."
+  },
+  "logGeneralError": {
+    "message": "فرشاة التنسيق: خطأ عام:",
+    "description": "Prefix for a general error message."
+  },
+  "logNotGmailTab": {
+    "message": "فرشاة التنسيق: تم تجاهل الأمر. ليست علامة تبويب Gmail.",
+    "description": "Log message when command is ignored because the tab is not Gmail."
+  }
+}

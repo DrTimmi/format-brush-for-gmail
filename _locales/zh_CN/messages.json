@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message": "Gmail 格式刷",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "使用键盘快捷键 (Alt+C, Alt+V) 或右键菜单在 Gmail 中快速应用文本格式。强大的样式处理功能。",
+    "description": "A short description of the extension."
+  },
+  "copyFormattingCommand": {
+    "message": "复制所选文本格式",
+    "description": "Description for the copy format keyboard command."
+  },
+  "pasteFormattingCommand": {
+    "message": "将复制的格式粘贴到所选内容",
+    "description": "Description for the paste format keyboard command."
+  },
+  "contextMenuCopyTitle": {
+    "message": "复制 Gmail 格式",
+    "description": "Title for the context menu item to copy formatting."
+  },
+  "contextMenuPasteTitle": {
+    "message": "粘贴 Gmail 格式",
+    "description": "Title for the context menu item to paste formatting."
+  },
+  "logStyleCopied": {
+    "message": "格式刷：样式已复制并保存。",
+    "description": "Log message when style is successfully copied."
+  },
+  "logPasteExecuted": {
+    "message": "格式刷：粘贴样式命令已执行。",
+    "description": "Log message when paste command is executed."
+  },
+  "logNoStyleToPaste": {
+    "message": "格式刷：存储中没有可粘贴的样式。请先使用复制命令。",
+    "description": "Log message when trying to paste with no copied style."
+  },
+  "logErrorSavingStyle": {
+    "message": "格式刷：保存样式时出错：",
+    "description": "Prefix for error message when saving style fails."
+  },
+  "logErrorRetrievingStyle": {
+    "message": "格式刷：检索样式时出错：",
+    "description": "Prefix for error message when retrieving style fails."
+  },
+  "logErrorInjectingScript": {
+    "message": "格式刷：注入脚本时出错：",
+    "description": "Prefix for error message when script injection fails."
+  },
+  "logGeneralError": {
+    "message": "格式刷：常规错误：",
+    "description": "Prefix for a general error message."
+  },
+  "logNotGmailTab": {
+    "message": "格式刷：命令已忽略。不是 Gmail 标签页。",
+    "description": "Log message when command is ignored because the tab is not Gmail."
+  }
+}

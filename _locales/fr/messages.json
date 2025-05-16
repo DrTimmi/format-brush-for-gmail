@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message": "Pinceau de Formatage pour Gmail",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Appliquez rapidement le formatage du texte dans Gmail à l'aide de raccourcis clavier (Alt+C, Alt+V) ou du menu contextuel. Gestion robuste des styles.",
+    "description": "A short description of the extension."
+  },
+  "copyFormattingCommand": {
+    "message": "Copier le formatage du texte sélectionné",
+    "description": "Description for the copy format keyboard command."
+  },
+  "pasteFormattingCommand": {
+    "message": "Coller le formatage copié sur la sélection",
+    "description": "Description for the paste format keyboard command."
+  },
+  "contextMenuCopyTitle": {
+    "message": "Copier le Formatage Gmail",
+    "description": "Title for the context menu item to copy formatting."
+  },
+  "contextMenuPasteTitle": {
+    "message": "Coller le Formatage Gmail",
+    "description": "Title for the context menu item to paste formatting."
+  },
+  "logStyleCopied": {
+    "message": "Pinceau de Formatage : Style copié et enregistré.",
+    "description": "Log message when style is successfully copied."
+  },
+  "logPasteExecuted": {
+    "message": "Pinceau de Formatage : Commande de collage de style exécutée.",
+    "description": "Log message when paste command is executed."
+  },
+  "logNoStyleToPaste": {
+    "message": "Pinceau de Formatage : Aucun style trouvé dans le stockage à coller. Utilisez d'abord la commande de copie.",
+    "description": "Log message when trying to paste with no copied style."
+  },
+  "logErrorSavingStyle": {
+    "message": "Pinceau de Formatage : Erreur lors de l'enregistrement du style :",
+    "description": "Prefix for error message when saving style fails."
+  },
+  "logErrorRetrievingStyle": {
+    "message": "Pinceau de Formatage : Erreur lors de la récupération du style :",
+    "description": "Prefix for error message when retrieving style fails."
+  },
+  "logErrorInjectingScript": {
+    "message": "Pinceau de Formatage : Erreur lors de l'injection du script :",
+    "description": "Prefix for error message when script injection fails."
+  },
+  "logGeneralError": {
+    "message": "Pinceau de Formatage : Erreur générale :",
+    "description": "Prefix for a general error message."
+  },
+  "logNotGmailTab": {
+    "message": "Pinceau de Formatage : Commande ignorée. Ce n'est pas un onglet Gmail.",
+    "description": "Log message when command is ignored because the tab is not Gmail."
+  }
+}

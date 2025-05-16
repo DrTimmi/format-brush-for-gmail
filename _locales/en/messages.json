@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message": "Format Brush for Gmail",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Quickly apply text formatting in Gmail using keyboard shortcuts (Alt+C, Alt+V) or the right-click menu. Robust style handling.",
+    "description": "A short description of the extension."
+  },
+  "copyFormattingCommand": {
+    "message": "Copy selected text formatting",
+    "description": "Description for the copy format keyboard command."
+  },
+  "pasteFormattingCommand": {
+    "message": "Paste copied formatting to selection",
+    "description": "Description for the paste format keyboard command."
+  },
+  "contextMenuCopyTitle": {
+    "message": "Copy Gmail Formatting",
+    "description": "Title for the context menu item to copy formatting."
+  },
+  "contextMenuPasteTitle": {
+    "message": "Paste Gmail Formatting",
+    "description": "Title for the context menu item to paste formatting."
+  },
+  "logStyleCopied": {
+    "message": "Format Brush: Style copied and saved.",
+    "description": "Log message when style is successfully copied."
+  },
+  "logPasteExecuted": {
+    "message": "Format Brush: Paste style command executed.",
+    "description": "Log message when paste command is executed."
+  },
+  "logNoStyleToPaste": {
+    "message": "Format Brush: No style found in storage to paste. Use copy command first.",
+    "description": "Log message when trying to paste with no copied style."
+  },
+  "logErrorSavingStyle": {
+    "message": "Format Brush: Error saving style:",
+    "description": "Prefix for error message when saving style fails."
+  },
+  "logErrorRetrievingStyle": {
+    "message": "Format Brush: Error retrieving style:",
+    "description": "Prefix for error message when retrieving style fails."
+  },
+  "logErrorInjectingScript": {
+    "message": "Format Brush: Error injecting script:",
+    "description": "Prefix for error message when script injection fails."
+  },
+  "logGeneralError": {
+    "message": "Format Brush: General error:",
+    "description": "Prefix for a general error message."
+  },
+  "logNotGmailTab": {
+    "message": "Format Brush: Command ignored. Not a Gmail tab.",
+    "description": "Log message when command is ignored because the tab is not Gmail."
+  }
+}

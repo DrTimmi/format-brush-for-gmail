@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message": "Pincel de Formato para Gmail",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Aplica rápidamente formato de texto en Gmail usando atajos de teclado (Alt+C, Alt+V) o el menú contextual. Manejo robusto de estilos.",
+    "description": "A short description of the extension."
+  },
+  "copyFormattingCommand": {
+    "message": "Copiar formato del texto seleccionado",
+    "description": "Description for the copy format keyboard command."
+  },
+  "pasteFormattingCommand": {
+    "message": "Pegar formato copiado a la selección",
+    "description": "Description for the paste format keyboard command."
+  },
+  "contextMenuCopyTitle": {
+    "message": "Copiar Formato de Gmail",
+    "description": "Title for the context menu item to copy formatting."
+  },
+  "contextMenuPasteTitle": {
+    "message": "Pegar Formato de Gmail",
+    "description": "Title for the context menu item to paste formatting."
+  },
+  "logStyleCopied": {
+    "message": "Pincel de Formato: Estilo copiado y guardado.",
+    "description": "Log message when style is successfully copied."
+  },
+  "logPasteExecuted": {
+    "message": "Pincel de Formato: Comando de pegar estilo ejecutado.",
+    "description": "Log message when paste command is executed."
+  },
+  "logNoStyleToPaste": {
+    "message": "Pincel de Formato: No se encontró ningún estilo en el almacenamiento para pegar. Usa primero el comando de copiar.",
+    "description": "Log message when trying to paste with no copied style."
+  },
+  "logErrorSavingStyle": {
+    "message": "Pincel de Formato: Error al guardar el estilo:",
+    "description": "Prefix for error message when saving style fails."
+  },
+  "logErrorRetrievingStyle": {
+    "message": "Pincel de Formato: Error al recuperar el estilo:",
+    "description": "Prefix for error message when retrieving style fails."
+  },
+  "logErrorInjectingScript": {
+    "message": "Pincel de Formato: Error al inyectar el script:",
+    "description": "Prefix for error message when script injection fails."
+  },
+  "logGeneralError": {
+    "message": "Pincel de Formato: Error general:",
+    "description": "Prefix for a general error message."
+  },
+  "logNotGmailTab": {
+    "message": "Pincel de Formato: Comando ignorado. No es una pestaña de Gmail.",
+    "description": "Log message when command is ignored because the tab is not Gmail."
+  }
+}

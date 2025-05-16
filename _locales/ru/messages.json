@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message": "Кисть форматирования для Gmail",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "Быстро применяйте форматирование текста в Gmail с помощью сочетаний клавиш (Alt+C, Alt+V) или контекстного меню. Надежная обработка стилей.",
+    "description": "A short description of the extension."
+  },
+  "copyFormattingCommand": {
+    "message": "Копировать форматирование выделенного текста",
+    "description": "Description for the copy format keyboard command."
+  },
+  "pasteFormattingCommand": {
+    "message": "Вставить скопированное форматирование в выделение",
+    "description": "Description for the paste format keyboard command."
+  },
+  "contextMenuCopyTitle": {
+    "message": "Копировать форматирование Gmail",
+    "description": "Title for the context menu item to copy formatting."
+  },
+  "contextMenuPasteTitle": {
+    "message": "Вставить форматирование Gmail",
+    "description": "Title for the context menu item to paste formatting."
+  },
+  "logStyleCopied": {
+    "message": "Кисть форматирования: Стиль скопирован и сохранен.",
+    "description": "Log message when style is successfully copied."
+  },
+  "logPasteExecuted": {
+    "message": "Кисть форматирования: Команда вставки стиля выполнена.",
+    "description": "Log message when paste command is executed."
+  },
+  "logNoStyleToPaste": {
+    "message": "Кисть форматирования: Стиль для вставки не найден в хранилище. Сначала используйте команду копирования.",
+    "description": "Log message when trying to paste with no copied style."
+  },
+  "logErrorSavingStyle": {
+    "message": "Кисть форматирования: Ошибка сохранения стиля:",
+    "description": "Prefix for error message when saving style fails."
+  },
+  "logErrorRetrievingStyle": {
+    "message": "Кисть форматирования: Ошибка извлечения стиля:",
+    "description": "Prefix for error message when retrieving style fails."
+  },
+  "logErrorInjectingScript": {
+    "message": "Кисть форматирования: Ошибка внедрения скрипта:",
+    "description": "Prefix for error message when script injection fails."
+  },
+  "logGeneralError": {
+    "message": "Кисть форматирования: Общая ошибка:",
+    "description": "Prefix for a general error message."
+  },
+  "logNotGmailTab": {
+    "message": "Кисть форматирования: Команда проигнорирована. Это не вкладка Gmail.",
+    "description": "Log message when command is ignored because the tab is not Gmail."
+  }
+}
